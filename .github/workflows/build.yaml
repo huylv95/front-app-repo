@@ -52,7 +52,7 @@ jobs:
 
 
       - name: Setup Kustomize
-        uses: lehuy2012/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
+        uses: imranismail/setup-kustomize@v1
 
       - name: Checkout kustomize repository
         uses: actions/checkout@v2
