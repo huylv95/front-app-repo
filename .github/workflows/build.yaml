@@ -56,6 +56,7 @@ jobs:
 
       - name: Check $GITHUB_USERNAME
         run: |
+          export GITHUB_USERNAME=lehuy2012
           echo $GITHUB_USERNAME
 
       - name: Checkout kustomize repository
